@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Molino</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/Logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <img class="Logo" src="../images/Logo.png" alt="El-Molino-logo">
+        <h1>El Molino</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" href="Ofertas.html">OFERTAS</a>
+                <a class="nav-link" href="Art-Limpieza.html">ART. LIMPIEZA</a>
+                <a class="nav-link" href="Fiambres.html">FIAMBRES</a>
+                <a class="nav-link active" aria-current="page" href="Almacen.html">ALMACEN</a>
+                
+                </div>
+            </div>
+            </div>
+        </nav>>
+        <div class="conteiner-ico">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+            </svg>
+            <div class="count-products">
+                <span id="contador-productos">0</span>
+            </div>    
+            <div class="container-cart-products hidden-cart">
+                <div class="cart-product">
+                    <div class="info-cart-product">
+                        <span id="cantidad-producto-carrito">1</span>
+                        <p class="titulo-producto-carrito">Harina x kg</p>
+                        <span class="precio-producto-carrito">$450</span>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>                 
+                </div>
+            </div>           
+        </div>
+    </header>
+    <main>
+        <img class="background" src="../images/almacen.jpg" alt="alimentos">
+        <div class="conteiner-items">
+            <div class="item">
+                <figure>
+                    <img src="../images/almacen/azucar.jpg" alt="Azucar">
+                </figure>
+                <div class="product-info">
+                    <h3>Azúcar x kg</h3>
+                    <p class="price">$600</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="../images/almacen/harina.jpg" alt="harina">
+                </figure>
+                <div class="product-info">
+                    <h3>Harina x kg</h3>
+                    <p class="price">$450</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="../images/almacen/galletitas.jpg" alt="galletitas-surtidas">
+                </figure>
+                <div class="product-info">
+                    <h3>Galletitas surtidas</h3>
+                    <p class="price">$750</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer-con">
+        <div>
+            <ul class="footer-flex">
+                <li><a target="_blank" href="https://m.facebook.com/profile.php?eav=AfZS8xKAzJ1ZQFDCAiPBWR0KI7o5pBbeRDJkPBOSsPjUStGACzUpS6PpbEYgsgLQ7Jg&paipv=0"><img src="../images/footers/facebook.png" alt="facebook"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/elenastagnitti/"><img src="../images/footers/instagram.png" alt="instagram"></a></li>
+                <li><a target="_blank" href="https://wa.me/5491151197434"><img src="../images/footers/whatsapp.png" alt="whatsapp"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

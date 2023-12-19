@@ -1,0 +1,31 @@
+*::after
+*::before
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Playpen Sans', cursive;
+}
+
+a:link{
+    color:rgba(29, 26, 26, 0.718)
+}
+body{
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+.Logo{
+    width: 100px;
+}
+
+img{
+    max-width: 100%;
+}
+nav a{
+    color:rgba(163, 188, 255, 0.855);
+    font-size: 2rem;
+    font-weight: 300;
+}
